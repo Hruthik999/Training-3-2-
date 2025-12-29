@@ -1,0 +1,17 @@
+public class Method {
+
+    int sum(int x, int y) {
+        return x + y;
+    }
+
+    void show() {
+        System.out.println("Hello Java");
+    }
+
+    public static void main(String[] args) {
+        Method obj = new Method();
+        int result = obj.sum(5, 3);
+        System.out.println(result);
+        obj.show();
+    }
+}
