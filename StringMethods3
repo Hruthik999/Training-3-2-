@@ -1,0 +1,7 @@
+public class StringMethods3 {
+    public static void main(String[] args){
+        String s="Java Prog";
+        System.out.println(s.startsWith("J"));
+        System.out.println(s.endsWith("g"));
+    }
+}
