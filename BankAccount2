@@ -1,0 +1,7 @@
+public class BankAccount2 {
+        public static void main(String[] args){
+            int bal=1000; bal+=bal*10/100;
+            System.out.println(bal);
+        }
+
+}
